@@ -56,7 +56,7 @@ flipButton.addEventListener('click', function(){
 if (total > 0) {
     // calc percent of heads
     percentHeads = Math.round((heads / total) * 100)
-    percentHeads = Math.round((tails / total) * 100)
+    percentTails = Math.round((tails / total) * 100)
 
 }
 // update table values 
